@@ -1,0 +1,32 @@
+body {
+  color: var(--primary-text-color);
+  background-color: var(--main-bcg-color);
+  // background-color: tomato;
+
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  // line-height: 14px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.section {
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 105px;
+  padding-right: 105px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

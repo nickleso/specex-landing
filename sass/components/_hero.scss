@@ -1,0 +1,70 @@
+.hero {
+  padding-top: 120px;
+
+  &__container {
+    padding-bottom: 32px;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 26px;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.17;
+
+    animation: fadeInUp 1000ms;
+  }
+
+  &__subtitle {
+    position: relative;
+
+    margin: 0;
+    text-align: center;
+
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.38;
+
+    text-transform: lowercase;
+
+    animation: fadeInUp 1100ms;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 0;
+      height: 59px;
+      bottom: -26px;
+      left: 50%;
+
+      transform: translateY(100%);
+
+      border: 1px solid #ffffff;
+    }
+  }
+}
+
+// .animate__animated .animate__bounce
+.overlay {
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 1437px;
+  height: 1006px;
+
+  background-image: url(../images/earth-1437.jpg);
+
+  background-size: 1437px 1006px;
+  background-size: cover;
+  background-position: center;
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    background-image: url(../images/earth-2874.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 3), (min-resolution: 288dpi), (min-resolution: 3dppx) {
+    background-image: url(../images/earth-4311.jpg);
+  }
+}

@@ -1,0 +1,67 @@
+.falcon-heavy {
+  position: relative;
+  padding-top: 492px;
+  padding-bottom: 507px;
+}
+
+.falcon-heavy__container {
+  padding-left: 149px;
+}
+
+.falcon-heavy__title {
+  margin-top: 0;
+  margin-bottom: 45px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.42;
+
+  text-transform: uppercase;
+}
+
+// table
+.falcon-table {
+  display: inline-block;
+  margin-bottom: 218px;
+  line-height: 1.78;
+
+  &__data-feature {
+    width: 288px;
+    padding: 0;
+  }
+
+  &__row {
+    display: block;
+  }
+
+  &__row:not(:last-child) {
+    margin-bottom: 11px;
+  }
+
+  &__data-value-1 {
+    padding: 0;
+  }
+
+  &__data-value-2 {
+    padding: 0;
+    color: var(--techfeatures-text-color);
+  }
+}
+
+// falcon heavy description
+.falcon-heavy__description {
+  margin: 0;
+  display: block;
+  width: 490px;
+  font-size: 16px;
+  line-height: 1.81;
+}
+
+// falcon heavy image
+.falcon-heavy__image {
+  position: absolute;
+  top: -65px;
+  right: 0;
+
+  // animation: fadeInUp 1100ms;
+}
